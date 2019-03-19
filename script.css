@@ -50,6 +50,10 @@ hr {
     display: inline-block
 }
 
+.scratchimg {
+    height: 50px;
+}
+
 @font-face {
     font-family: 'estrogen-wallroman';
     src: url('estrogw_-webfont.woff2') format('woff2'),
