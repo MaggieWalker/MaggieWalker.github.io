@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(to bottom right, rgb(218, 138, 207), white);
     background-attachment: fixed;
     height: 100vh;
+    font-family: estrogen-wallroman;
 }
 
 h2 {
@@ -37,4 +38,13 @@ h2 {
 }
 #scratchList {
     display: inline-block
+}
+
+@font-face {
+    font-family: 'estrogen-wallroman';
+    src: url('estrogw_-webfont.woff2') format('woff2'),
+         url('estrogw_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
