@@ -27,7 +27,7 @@ h2 {
     border: 1px solid black;
 }
 a {
-    font-size: 70px;
+    font-size: 50px;
     text-decoration: none;
     color: var(--font-color);
 }
@@ -97,13 +97,14 @@ span:before {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 #scratchList {
     display: inline-block
 }
 
 .scratchimg {
-    height: 50px;
+    padding: 20px;
 }
 
 @font-face {
