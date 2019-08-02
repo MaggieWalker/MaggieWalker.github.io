@@ -41,6 +41,7 @@ hr {
 span {
   position: relative;
   cursor: pointer;
+  font-family: 'Courier New', Courier, monospace
 }
 span:hover:before {
     opacity: 1;
